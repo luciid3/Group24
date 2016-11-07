@@ -1,0 +1,60 @@
+body{
+	background: linear-gradient(#f2f2f2, #cccccc);
+}
+
+/*-------------DIVS--------------*/
+
+#hold{
+	width:1200px;
+	margin:auto;
+}
+#header{
+	width:1200px;
+	height:200px;
+	background: linear-gradient(#80b3ff, #0066ff);
+	border:1px solid black;
+}
+#navBar{
+	width:1200px;
+	height:75px;
+	background: linear-gradient(#1a1aff, #0000b3);
+	border:1px solid black;
+}
+#content{
+	width:1200px;
+	border:1px solid black;
+}
+#footer{
+	width:1200px;
+	height:50px;
+	background: linear-gradient(#1a1aff, #0000b3);
+}
+
+/*--------------------------------*/
+
+h1{
+	color:black;
+	text-align:center;
+	font-size:60px;
+	text-decoration:underline;
+}
+p{
+	color:black;
+	font-size:18px;
+}
+table{
+	text-align:center;
+	color:red;
+	border: 1px solid red;
+	border-collapse: collapse;
+}
+
+/*-------------Classes--------------*/
+
+.defaultButton{
+	height:50px;
+	width:200px;
+}
+.boxFill{
+	background: linear-gradient(#1a1aff, #0000b3);
+}
