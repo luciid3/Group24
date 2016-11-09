@@ -42,8 +42,6 @@
 			include 'header.php';
 		?>
 		
-		<img id="headPics" src="/images/bodies.jpg" alt="Profile Shots">
-		
 		<br><br>
 		
 		<h2>Home</h2>
@@ -86,7 +84,7 @@
 					<img src="images\filipHomePic.jpg" 
 					style="width: 150px; height: relative; display: block;"></a></td>
 				
-				<td><a href="#">
+				<td><a href="member_6432380.php">
 					<img src="images/benHomePic.jpg" 
 					style="width: 150px; height: relative; display: block;"></a></td>
 				
