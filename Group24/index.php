@@ -42,9 +42,11 @@
 			include 'header.php';
 		?>
 		
+		<img id="headPics" src="bodies.jpg" alt="Profile Shots">
+		
 		<br><br>
 		
-		<h2>Home</h2>
+		<h2 class="indexHeader">Home</h2>
 		
 		<br>
 		
@@ -58,7 +60,7 @@
 		
 		<br><hr><br>
 		
-		<h2>Meet the group!</h2>
+		<h2 class="indexHeader">Meet the group!</h2>
 		
 		<br><br>
 		
@@ -81,27 +83,27 @@
 			
 			<tr>
 				<td><a href="#">
-					<img src="images\filipHomePic.jpg" 
-					style="width: 150px; height: relative; display: block;"></a></td>
-				
-				<td><a href="member_6432380.php">
-					<img src="images/benHomePic.jpg" 
+					<img src="filipHomePic.jpg" 
 					style="width: 150px; height: relative; display: block;"></a></td>
 				
 				<td><a href="#">
-					<img src="images/petarHomePic.jpg" 
+					<img src="benHomePic.jpg" 
+					style="width: 150px; height: relative; display: block;"></a></td>
+				
+				<td><a href="#">
+					<img src="petarHomePic.jpg" 
 					style="width: 150px; height: relative; display: block;"></a></td>
 					
 				<td><a href="#">
-					<img src="images/maddieHomePic.jpg" 
+					<img src="maddieHomePic.jpg" 
 					style="width: 150px; height: relative; display: block;"></a></td>
 				
 				<td><a href="#">
-					<img src="images/adrienHomePic.jpg" 
+					<img src="adrienHomePic.jpg" 
 					style="width: 150px; height: relative; display: block;"></a></td>
 					
 				<td><a href="member_6413040.php">
-					<img src="/images/harryHomePic.jpg" 
+					<img src="harryHomePic.jpg" 
 					style="width: 150px; height: relative; display: block;"></a></td>
 				
 			</tr>
