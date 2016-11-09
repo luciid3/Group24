@@ -23,6 +23,8 @@
 		</script>
 		
 	
+	
+	
 		
 		<h1><span style="padding: 20px;">Group 24</span></h1>
 		
@@ -32,10 +34,14 @@
 		
 			<!--Fragment ID to further down the page-->
 			<li><a href="#harryPics" title="Picture of Me!">Pictures</a></li>
+			
+			
+			
+			
 			<li class="dropdown">
 				<a href="javascript:void(0)" class="dropbtn" onclick="dropFunction()">Group 24</a>
 				<div class="dropdown-content" id="myDropdown">
-				  <a href="#">Harry</a>
+				  <a href="member_6413040.php">Harry</a>
 				  <a href="#">Ben</a>
 				  <a href="#">Petar</a>
 				  <a href="#">Adrien</a>
@@ -48,5 +54,5 @@
 			
 			
 			
-			<li><a href="#Home" title="Index">Home</a></li>
+			<li><a href="Index.php" title="Index">Home</a></li>
 		</ul>
