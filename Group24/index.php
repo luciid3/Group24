@@ -7,7 +7,7 @@
 	
 	<title>Group 24 Index</title>
 	
-	<link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+	<link href="group.css" rel="stylesheet" type="text/css"/>
 	
 	<!--Set the cookie to a value specific to this webpage-->
 	<?php
