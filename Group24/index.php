@@ -42,7 +42,7 @@
 			include 'header.php';
 		?>
 		
-		<img id="headPics" src="bodies.jpg" alt="Profile Shots">
+		<img id="headPics" src="/images/bodies.jpg" alt="Profile Shots">
 		
 		<br><br>
 		
@@ -83,27 +83,27 @@
 			
 			<tr>
 				<td><a href="#">
-					<img src="filipHomePic.jpg" 
+					<img src="images\filipHomePic.jpg" 
 					style="width: 150px; height: relative; display: block;"></a></td>
 				
 				<td><a href="#">
-					<img src="benHomePic.jpg" 
+					<img src="images/benHomePic.jpg" 
 					style="width: 150px; height: relative; display: block;"></a></td>
 				
 				<td><a href="#">
-					<img src="petarHomePic.jpg" 
+					<img src="images/petarHomePic.jpg" 
 					style="width: 150px; height: relative; display: block;"></a></td>
 					
 				<td><a href="#">
-					<img src="maddieHomePic.jpg" 
+					<img src="images/maddieHomePic.jpg" 
 					style="width: 150px; height: relative; display: block;"></a></td>
 				
 				<td><a href="#">
-					<img src="adrienHomePic.jpg" 
+					<img src="images/adrienHomePic.jpg" 
 					style="width: 150px; height: relative; display: block;"></a></td>
 					
 				<td><a href="member_6413040.php">
-					<img src="harryHomePic.jpg" 
+					<img src="/images/harryHomePic.jpg" 
 					style="width: 150px; height: relative; display: block;"></a></td>
 				
 			</tr>
