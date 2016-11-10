@@ -33,7 +33,7 @@
 		<ul class="nav">
 		
 			<!--Fragment ID to further down the page-->
-			<li><a href="#harryPics" title="Picture of Me!">Pictures</a></li>
+			<li><a href="#myPics" title="Pictures!">Pictures</a></li>
 			
 			
 			
