@@ -57,4 +57,4 @@
 			<li><a href="Index.php" title="Index">Home</a></li>
 		</ul>
 		
-		<img src="images/bodies.jpg" alt="Profile Shots" style="position: absolute;top:0px;height: 150px;width: relative;">
+		<img src="images/bodiesHeader.jpg" alt="Profile Shots" style="position: absolute;top:0px;height: 150px;width: relative;">
