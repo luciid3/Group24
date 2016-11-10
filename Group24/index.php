@@ -9,6 +9,18 @@
 	
 	<link href="stylesheet.css" rel="stylesheet" type="text/css"/>
 	
+	<!--Set the cookie to a value specific to this webpage-->
+	<?php
+	
+	include 'pageArray.php';
+	
+	$cookie_name = "lastPage";
+	$cookie_value = $cookieInfo['home'];
+
+	setcookie($cookie_name, $cookie_value, time() + (86400 * 15), "/"); //Set for use across whole website
+	
+	?>
+	
 	<style>
 	
 		table, th, td {
@@ -41,8 +53,6 @@
 		<?php
 			include 'header.php';
 		?>
-		
-		<img id="headPics" src="bodies.jpg" alt="Profile Shots">
 		
 		<br><br>
 		
@@ -131,6 +141,19 @@
 		</p>
 		
 		</div>
+		
+		
+		<!--Output which page was last visited by accessing the value of the cookie-->
+		<!--This uses a website-wide cookie to determine which page was most recently visted by this user-->
+		<p style = "text-align: center; padding-top: 50px;">
+		<?php
+		
+			if(isset($_COOKIE[$cookie_name]))  {
+				echo "The last page you visited was " . $_COOKIE[$cookie_name];
+			}
+		?>
+		</p>
+		
 			
 		<?php
 			include 'footer.php';
