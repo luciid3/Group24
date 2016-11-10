@@ -2,14 +2,14 @@
 		<!--Javascript used to create dropdown box in navigation bar-->
 		
 		<script>
-		// Toggle between displaying and hiding dropdown box */
+		// Toggle between displaying and hiding dropdown box 
 		function dropFunction() {
 			document.getElementById("myDropdown").classList.toggle("show");
 		}
 
 		// Close the dropdown box
-		window.onclick = function(e) {
-		  if (!e.target.matches('.dropbtn')) {
+		window.onclick = function(click) {
+		  if (!click.target.matches('.dropbtn')) {
 
 			var dropdowns = document.getElementsByClassName("dropdown-content");
 			for (var d = 0; d < dropdowns.length; d++) {
@@ -23,7 +23,21 @@
 		</script>
 		
 	
-	
+		<?php
+			function getName($number) {
+				
+				$names = array(
+					'1' => 'Harry',
+					'2' => 'Ben',
+					'3' => 'Petar',
+					'4' => 'Adrien',
+					'5' => 'Maddie',
+					'6' => 'Fillip',
+				);
+				
+				echo $names[$number];
+			}
+		?>
 	
 		
 		<h1><span style="padding: 20px;">Group 24</span></h1>
@@ -41,12 +55,12 @@
 			<li class="dropdown">
 				<a href="javascript:void(0)" class="dropbtn" onclick="dropFunction()">Group 24</a>
 				<div class="dropdown-content" id="myDropdown">
-				  <a href="member_6413040.php">Harry</a>
-				  <a href="#">Ben</a>
-				  <a href="#">Petar</a>
-				  <a href="#">Adrien</a>
-				  <a href="#">Maddie</a>
-				  <a href="#">Fillip</a>
+				  <a href="member_6413040.php"> <?php getName('1'); ?> </a>
+				  <a href="#"> <?php getName('2'); ?> </a>
+				  <a href="#"> <?php getName('3'); ?> </a>
+				  <a href="#"> <?php getName('4'); ?> </a>
+				  <a href="#"> <?php getName('5'); ?> </a>
+				  <a href="#"> <?php getName('6'); ?> </a>
 				</div>
 			</li>
 			
