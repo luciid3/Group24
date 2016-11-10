@@ -70,7 +70,7 @@
 		
 		<br><hr><br>
 		
-		<h2 class="indexHeader">Meet the group!</h2>
+		<h2 class="indexHeader" id = "myPics">Meet the group!</h2>
 		
 		<br><br>
 		
