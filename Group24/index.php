@@ -29,7 +29,7 @@
 		}
 		
 		body  {
-			background-color: #C2C1C4;
+			background-color: #D7DCD1;
 		}
 		
 		/*Use absolute positioning to place image alongside header*/
@@ -61,7 +61,11 @@
 		<br>
 		
 		<p style="font-size: 20px;">
-			Welcome to the homepage for Group 24! This is the index where
+			<?php
+			$grp = "Group 24!";
+			echo "Welcome to the homepage for $grp";
+			?>
+			This is the index where
 			you can find links to all the individual webpages of each member 
 			in the group. This website is a peice of coursework that was set
 			by Shujun Li for the COM1025 module, web publishing and databases. 
