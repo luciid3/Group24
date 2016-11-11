@@ -56,7 +56,7 @@
 				<a href="javascript:void(0)" class="dropbtn" onclick="dropFunction()">Group 24</a>
 				<div class="dropdown-content" id="myDropdown">
 				  <a href="member_6413040.php"> <?php getName('1'); ?> </a>
-				  <a href="#"> <?php getName('2'); ?> </a>
+				  <a href="member_6432380.php"> <?php getName('2'); ?> </a>
 				  <a href="#"> <?php getName('3'); ?> </a>
 				  <a href="#"> <?php getName('4'); ?> </a>
 				  <a href="#"> <?php getName('5'); ?> </a>
@@ -71,4 +71,4 @@
 			<li><a href="Index.php" title="Index">Home</a></li>
 		</ul>
 		
-		<img src="images/bodiesHeader.jpg" alt="Profile Shots" style="position: absolute;top:0px;height: 150px;width: relative;">
+		<img src="/images/bodies.jpg" alt="Profile Shots" style="position: absolute;top:0px;height: 150px;width: relative;">
