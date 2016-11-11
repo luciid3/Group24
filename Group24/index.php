@@ -162,6 +162,33 @@
 			This is some writing.
 			This is some writing.
 		</p>
+		<br><br><br>
+		
+		<form action="postForm.php" method="post">
+		<fieldset>
+			<h3 style="text-decoration: underline">Feedback Form</h3>
+			<br>
+			<div style="display: inline-block; width: 200px; height:150px; margin: auto;">
+				<p style="float: right;">Firstname:</p>
+				<br>
+				<p style="float: right;">Lastname:</p>
+				<br>
+				<p style="float: right;">Comments:</p>
+			</div>
+			
+			<div style="display: inline-block; width: 200px; height:150px; margin: auto;">
+				<input type="text" name="firstname" style="float:left; width: 200px;">
+				<br>
+				<input type="text" name="lastname" style="float:left; width: 200px;">
+				<br>
+				<textarea name="comments" style="float:left; height:100px; width:200px;"></textarea>
+			</div>
+			<br>
+			<input type="submit" style="width:100px; height:35px;">
+			<input type="reset" name="Clear" style="width:100px; height:35px;">
+			<br><br>
+		</fieldset>
+		</form>
 		
 		</div>
 		
