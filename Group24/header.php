@@ -32,7 +32,7 @@
 					'3' => 'Petar',
 					'4' => 'Adrien',
 					'5' => 'Maddie',
-					'6' => 'Fillip',
+					'6' => 'Filip',
 				);
 				
 				echo $names[$number];
