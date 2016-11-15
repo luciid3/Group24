@@ -1,0 +1,56 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GROUP SYSTEM "group.dtd">
+<GROUP>
+
+<PERSON>
+<NAME>Petar Zdravkov</NAME>
+<PLACEOFBIRTH>Pazardzhik, Bulgaria</PLACEOFBIRTH>
+<COURSE>BSc Computer Science</COURSE>
+<FAVOURITEMODULE>COM1025</FAVOURITEMODULE>
+<HOBBIES>Motorcycles, Games, Painting</HOBBIES>
+</PERSON>
+
+<PERSON>
+<NAME>Harry Ware</NAME>
+<PLACEOFBIRTH>United Kingdom</PLACEOFBIRTH>
+<COURSE>BSc Computer Science</COURSE>
+<FAVOURITEMODULE>COM1025</FAVOURITEMODULE>
+<HOBBIES>Sleeping, Watching TV, Travelling</HOBBIES>
+</PERSON>
+
+<PERSON>
+<NAME>Filip Adrian Briac</NAME>
+<PLACEOFBIRTH>Craiova, Romania</PLACEOFBIRTH>
+<COURSE>BSc Computer Science</COURSE>
+<FAVOURITEMODULE>COM1027</FAVOURITEMODULE>
+<HOBBIES>Watching Series and Videogames</HOBBIES>
+</PERSON>
+
+
+
+<PERSON>
+<NAME>Ben Spooner</NAME>
+<PLACEOFBIRTH>Lambeth</PLACEOFBIRTH>
+<COURSE>Computer Science</COURSE>
+<FAVOURITEMODULE>COM1025</FAVOURITEMODULE>
+<HOBBIES>Guitar, Football, Tabletennis</HOBBIES>
+</PERSON>
+
+<PERSON>
+<NAME>Madeleine Frost</NAME>
+<PLACEOFBIRTH>South London, UK</PLACEOFBIRTH>
+<COURSE>BSc Computer Science</COURSE>
+<FAVOURITEMODULE>COM1027</FAVOURITEMODULE>
+<HOBBIES>Reading, Shopping, Going out, Tennis</HOBBIES>
+</PERSON>
+
+<PERSON>
+<NAME>Adrien Royer</NAME>
+<PLACEOFBIRTH>Le Chesnay, France</PLACEOFBIRTH>
+<COURSE>BSc Computer Science</COURSE>
+<FAVOURITEMODULE>COM1025</FAVOURITEMODULE>
+<HOBBIES>Volleyball, Climbing, Trampoline</HOBBIES>
+</PERSON>
+
+
+</GROUP>
