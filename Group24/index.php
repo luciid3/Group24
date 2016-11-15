@@ -81,7 +81,7 @@
 		<br><br>
 		
 		
-		<h2 class="indexHeader" id="colorAnimate">Home</h2>
+		<h2 class="indexHeader" id="colorAnimate" title="Moving Header!">Home</h2>
 		
 		<br>
 		
