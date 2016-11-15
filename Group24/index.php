@@ -40,7 +40,25 @@
 			width: relative;
 		}
 		
-	</style>
+		#colorAnimate {
+			color: #302E30;
+			position: relative;
+			font-size: 60px;
+			
+			animation-name: colorChange;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+		}
+		
+		@keyframes colorChange{
+			0%{color: #302E30; left: 0px;}
+			25%{color: #BE51CA; left: 100px;}
+			50%{color: #302E30; left: 0px;}
+			75%{color: #BE51CA; left: -100px;}
+			100%{color: #302E30; left: 0px;}
+		}
+		
+	</style> 
 	
 	
 </head>
@@ -56,7 +74,8 @@
 		
 		<br><br>
 		
-		<h2 class="indexHeader">Home</h2>
+		
+		<h2 class="indexHeader" id="colorAnimate">Home</h2>
 		
 		<br>
 		
@@ -100,7 +119,7 @@
 					<img src="images/filipHomePic.jpg" 
 					style="width: 150px; height: relative; display: block;"></a></td>
 				
-				<td><a href="/member_6432380.php">
+				<td><a href="#">
 					<img src="images/benHomePic.jpg" 
 					style="width: 150px; height: relative; display: block;"></a></td>
 				
