@@ -8,6 +8,10 @@
 		p{
 			text-align: center;
 		}
+		body  {
+			font-family: Roboto,arial,sans-serif;
+			background-color: #D7DCD1;
+		}
 	</style>
 	
 </head>
@@ -21,7 +25,7 @@
 			$subject = 'Group 24';
 			$message = $_POST["comments"];
 
-			mail($to, $subject, $message, 'From:spoonster99@gmail.com');
+			mail($to, $subject, $message, 'something here');
 			
 		?>
 		
