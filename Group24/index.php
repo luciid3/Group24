@@ -25,6 +25,31 @@
 	}
 	?>
 	
+	<!--Script that allows member info to be shown-->
+	<script>
+        function showMember(str) {
+        if (str=="") {
+        document.getElementById("txtHint").innerHTML="";
+        return;
+        }
+        if (window.XMLHttpRequest) {
+        xmlhttp=new XMLHttpRequest();
+  
+        } else {
+        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        //code that changes the information in the text box
+        xmlhttp.onreadystatechange=function() {
+        if (this.readyState==4 && this.status==200) {
+        document.getElementById("txtHint").innerHTML=this.responseText;
+         }
+        }
+       // links the getMember.php file
+       xmlhttp.open("GET","getMember.php?q="+str,true);
+       xmlhttp.send();
+       }
+       </script>
+	
 	<style>
 	
 		table, th, td {
@@ -62,6 +87,14 @@
 			50%{color: #302E30; left: 0px;}
 			75%{color: #BE51CA; left: -100px;}
 			100%{color: #302E30; left: 0px;}
+		}
+		/*Code to put some space between the elements(just for visual reasons)*/
+		div.xmlForm{
+			margin-top: 40px;
+		}
+		
+		div.member{
+			margin-top: 40px;
 		}
 		
 	</style> 
@@ -168,9 +201,9 @@
 			This is some writing.
 			This is some writing.
 		</p>
+		</div>
 		
-		
-		
+		<div class="member" align = center>
 		<form action="index.php" method="GET">
 			<input type="radio" name="member" value="6413040"> Harry<br>
 			<input type="radio" name="member" value="petar"> Petar<br>
@@ -181,9 +214,22 @@
 			
 			<input type="submit" value="Go!">
 		</form>
+		</div>
 		
-		
-		
+		<div class="xmlForm" align = center>
+		<form>
+                    Select a member:
+                    <select name="members" onchange="showMember(this.value)">
+                    <option value="">Select a member:</option>
+                    <option value="Petar Zdravkov">Petar Zdravkov</option>
+                    <option value="Harry Ware">Harry Ware</option>
+                    <option value="Filip Adrian Briac">Filip Adrian Briac</option>
+                    <option value="Ben Spooner">Ben Spooner</option>
+                    <option value="Madeleine Frost">Madeleine Frost</option>
+                    <option value="Adrien Royer">Adrien Royer</option>
+                    </select>
+                </form>
+                <div id="txtHint"><b>Member info will be listed here...</b></div>
 		</div>
 		
 		
