@@ -11,7 +11,7 @@
 	
 	<!--Set the cookie to a value specific to this webpage-->
 	<?php
-	
+	//Set cookie
 	include 'pageArray.php';
 	
 	$cookie_name = "lastPage";
@@ -19,6 +19,10 @@
 
 	setcookie($cookie_name, $cookie_value, time() + (86400 * 15), "/"); //Set for use across whole website
 	
+	
+	if (isset($_GET["member"])) {
+		header("location: member_" . $_GET['member'] . ".php");
+	}
 	?>
 	
 	<style>
@@ -117,7 +121,7 @@
 			</tr>
 			
 			<tr>
-				<td><a href="#">
+				<td><a href="member_6434647.php">
 					<img src="images/filipHomePic.jpg" 
 					style="width: 150px; height: relative; display: block;"></a></td>
 				
@@ -164,6 +168,21 @@
 			This is some writing.
 			This is some writing.
 		</p>
+		
+		
+		
+		<form action="index.php" method="GET">
+			<input type="radio" name="member" value="6413040"> Harry<br>
+			<input type="radio" name="member" value="petar"> Petar<br>
+			<input type="radio" name="member" value="adrien"> Adrien<br>
+			<input type="radio" name="member" value="maddie"> Maddie<br>
+			<input type="radio" name="member" value="6434647"> Filip<br>
+			<input type="radio" name="member" value="ben"> Ben<br>
+			
+			<input type="submit" value="Go!">
+		</form>
+		
+		
 		
 		</div>
 		
