@@ -81,6 +81,10 @@
 			margin: 0 auto;
 		}
 		
+		#centered {
+			text-align: center;
+		}
+		
 		@keyframes colorChange{
 			0%{color: #302E30; left: 0px;}
 			25%{color: #BE51CA; left: 100px;}
@@ -136,13 +140,13 @@
 		
 		<br><br>
 		
-		<p align=center>
+		<p id="centered">
 		Click on one of the pictures to visit their individual webpage
 		</p>
 		
 		<br>
 		
-		<div align = center>
+		<div id="centered">
 		<table>
 			<tr style="background-color:#E6D69F;">
 				<th>Filip</th>
@@ -209,7 +213,7 @@
 		</p>
 		</div>
 		
-		<div class="member" align = center>
+		<div class="member" id="centered">
 		<form action="index.php" method="GET">
 			<input type="radio" name="member" value="6413040"> Harry<br>
 			<input type="radio" name="member" value="petar"> Petar<br>
