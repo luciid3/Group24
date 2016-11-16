@@ -81,7 +81,7 @@
 			margin: 0 auto;
 		}
 		
-		#members.centered {
+		#members#xmlForm.centered {
 			text-align: center;
 		}
 		
@@ -226,7 +226,7 @@
 		</form>
 		</div>
 		
-		<div class="xmlForm" align = center>
+		<div class="xmlForm" id="xmlForm">
 		<form>
                     Select a member:
                     <select name="members" onchange="showMember(this.value)">
