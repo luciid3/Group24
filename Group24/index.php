@@ -81,7 +81,7 @@
 			margin: 0 auto;
 		}
 		
-		#centered {
+		#members.centered {
 			text-align: center;
 		}
 		
@@ -140,13 +140,13 @@
 		
 		<br><br>
 		
-		<p id="centered">
+		<p class="centered">
 		Click on one of the pictures to visit their individual webpage
 		</p>
 		
 		<br>
 		
-		<div id="centered">
+		<div class="centered">
 		<table>
 			<tr style="background-color:#E6D69F;">
 				<th>Filip</th>
@@ -213,7 +213,7 @@
 		</p>
 		</div>
 		
-		<div class="member" id="centered">
+		<div class="member" id="members">
 		<form action="index.php" method="GET">
 			<input type="radio" name="member" value="6413040"> Harry<br>
 			<input type="radio" name="member" value="petar"> Petar<br>
