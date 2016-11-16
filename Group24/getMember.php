@@ -2,7 +2,7 @@
 $q=$_GET["q"];
 
 $xmlDoc = new DOMDocument();
-$xmlDoc->load("group.xml");
+$xmlDoc->load("data/group.xml");
 
 $x=$xmlDoc->getElementsByTagName('NAME');
 
