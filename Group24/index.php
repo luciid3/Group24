@@ -156,27 +156,33 @@
 			<tr>
 				<td><a href="member_6434647.php">
 					<img src="images/filipHomePic.jpg" 
-					style="width: 150px; height: relative; display: block;"></a></td>
+					style="width: 150px; height: relative; display: block;"
+					alt="Error in displaying Filip's photo"></a></td>
 				
 				<td><a href="#">
 					<img src="images/benHomePic.jpg" 
-					style="width: 150px; height: relative; display: block;"></a></td>
+					style="width: 150px; height: relative; display: block;"
+					alt="Error in displaying Ben's photo"></a></td>
 				
 				<td><a href="#">
 					<img src="images/petarHomePic.jpg" 
-					style="width: 150px; height: relative; display: block;"></a></td>
+					style="width: 150px; height: relative; display: block;"
+					alt="Error in displaying Petar's photo"></a></td>
 					
 				<td><a href="#">
 					<img src="images/maddieHomePic.jpg" 
-					style="width: 150px; height: relative; display: block;"></a></td>
+					style="width: 150px; height: relative; display: block;"
+					alt="Error in displaying Maddies's photo"></a></td>
 				
 				<td><a href="#">
 					<img src="images/adrienHomePic.jpg" 
-					style="width: 150px; height: relative; display: block;"></a></td>
+					style="width: 150px; height: relative; display: block;"
+					alt="Error in displaying Adrien's photo"></a></td>
 					
 				<td><a href="member_6413040.php">
 					<img src="images/harryHomePic.jpg" 
-					style="width: 150px; height: relative; display: block;"></a></td>
+					style="width: 150px; height: relative; display: block;"
+					alt="Error in displaying Harry's photo"></a></td>
 				
 			</tr>
 		</table>
