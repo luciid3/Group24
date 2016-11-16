@@ -16,7 +16,6 @@
 	
 	$cookie_name = "lastPage";
 	$cookie_value = $cookieInfo['home'];
-
 	setcookie($cookie_name, $cookie_value, time() + (86400 * 15), "/"); //Set for use across whole website
 	
 	
@@ -241,6 +240,23 @@
                 </form>
                 <div id="txtHint"><b>Member info will be listed here...</b></div>
 		</div>
+		
+		<br>		
+		<h2>Tell us what you think about the website!</h2><br>
+		
+		<form action="details.php" method="post">
+			Firstname:<br>
+			<input type="text" name="firstname"/><br>
+			Lastname:<br>
+			<input type="text" name="lastname"><br>
+			Gender: 
+			<input type="radio"> Male
+			<input type="radio"> Female<br>
+			E-mail:<br>
+			<input type="text" name="email"><br>
+			Comments:<br>
+			<textarea rows="5" cols="50" name="comment"></textarea><br><br>
+			<input type="submit">
 		
 		
 		<!--Output which page was last visited by accessing the value of the cookie-->
