@@ -1,0 +1,23 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PERSON [
+<!ELEMENT PERSON (title, name, occupation, course, favourite-module, short-term-residence, permanent-residence, hobbies)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT occupation (#PCDATA)>
+<!ELEMENT course (#PCDATA)>
+<!ELEMENT favourite-module (#PCDATA)>
+<!ELEMENT short-term-residence (#PCDATA)>
+<!ELEMENT permanent-residence (#PCDATA)>
+<!ELEMENT hobbies (#PCDATA)>
+]>
+
+<PERSON xml:lang="en">
+<title>Mr</title>
+<name><English>Petar Zdravkov</English><Bulgarian>Петър Здравков</Bulgarian></name>
+<occupation>Student</occupation>
+<course>Computer Science</course>
+<favourite-module>Com1025</favourite-module>
+<short-term-residence>Stag Hill 03, University of Surrey</short-term-residence>
+<permanent-residence>Ulitsa Purva N:39, Pazardzhik</permanent-residence>
+<hobbies>Fitness, Motorcycles, Gaming, Movies</hobbies>
+</PERSON>
