@@ -45,11 +45,10 @@
        width: 97px;
        height: 20px;
        transition: width 1s;
-       transition: width 1s;
        color:aqua
     }
    
-       div.top:hover {
+    div.top:hover {
        width:  300px;
        opacity: 0.3;
     }
@@ -61,7 +60,6 @@
     div.nav{
        list-style-type: none;
        padding: : 1em;
-       float:          right;
        max-width:      230px;
        padding:        1em;
        border-left:  3px solid black;
@@ -83,11 +81,16 @@
     }
 
     div.xml{
-       margin-top: 40px;
+	   margin-top: 40px;
+	   
+	  
     }
   
     div.generalInfo{
-	   color: aqua;   
+	   color: aqua;
+	   float: right;
+	   margin-top: 50px;
+	   margin-right: 190px;
     }
   
     .button {
@@ -102,27 +105,26 @@
        margin:           4px 2px;
        cursor:           pointer;
        border-radius:    9px;
+	   transition-duration: 0.8s;
 	   
-       transition-duration: 0.8s;
     }
 
     .button:hover {
        background-color: #3e8e41;
     }
 
-    #images{
-	   float: right;
-	   width: 100px;
-    }
-	
-	#myPics{
+   	#myPics{
 		margin-left: 20px;
+		margin-top: 50px;
+		transition-duration: 2s;
+		border-radius: 20px;
 	}
     
 	div.table{
 		color: aqua;
 		margin-left: 40px;
 		margin-top:  50px;
+		margin-bottom: 50px;
 	}
 	
 	#mct{
@@ -139,11 +141,15 @@
         background-color: #4CAF50;
         color: white;
        }
- 
 	
+	#myPics:hover{
+		opacity: 0.5;
+		transform: rotateY(150deg);
+		
+		
+	}
     </style>
-
-
+	
     <meta charset="utf-8">
     <title>Petar`s website</title>
     <link rel="stylesheet" href="group.css">
@@ -177,7 +183,11 @@
     <li><a target="_blank" title="City of Pazardzhik!" href="https://en.wikipedia.org/wiki/Pazardzhik"><div class="top">AboutTown</div></a></li>
     <li><a target="_blank" title="W3Schools!" href="http://www.w3schools.com/default.asp"><div class="top">W3Tutorials</div></a></li>
     </ul>
-    <hr>  
+    <hr>
+    <ul class="top">
+	<li><a href="#mypics"><div class="top">My pic</div></a><li>
+	<li><a href="#mybutton"><div class="top">Info</div></a></li>
+    </ul>	
 	  
 	<!--Image path-->
     <img id="myPics" src="images/petar1.jpg" alt="Image not found">
@@ -236,16 +246,22 @@
     </table>
     <?php endif; ?>
 	</div>
-    
-	<!--Creating a div box to position the button-->
-    <div class="xml" align = center>
-    <button type="button" onclick="multipleTasks()" class="button">Additional info</button>
-    <br><br>
-    </div>
-    
-	<!--Creating the space in which the content of the XML file will be shown-->
-	<div align = center><p id="info" style="color:aqua"> </p></div>
-  
+	
+	<div align = center>
+	<iframe width="420" height="315"
+       src="https://www.youtube.com/embed/CcyWiNAnNiI">
+       </iframe> 
+	   
+	   <iframe style="margin-left: 30px" width="420" height="315"
+	   src="https://www.youtube.com/embed/rWHQ4tmh0uM">
+       </iframe> 
+	   
+	   <iframe style="margin-left: 30px" width="420" height="315"
+	   src="https://www.youtube.com/embed/VcjSXnVK87w">
+	   </iframe>
+	  <h2 style="color:aqua">Some examples of the Bulgarian culture both modern and folklore.</h2>
+	   </div>
+	   	   
     <!--Scripting the functions to read from the corresponding XML file-->
     <script>
     function multipleTasks(){ //function that triggers two internal functions
@@ -296,22 +312,33 @@
     }
    }
     </script>
- 
-    <!--The paragraph that holds the name for the previously visited page-->
-    <p style = "text-align: center; padding-top: 50px; color:black;">
+	
+	<!--Creating a div box to position the button-->
+    <div class="xml" align = center>
+    <button id="mybutton" type="button" onclick="multipleTasks()" class="button">Additional info</button>
+   
+	<!--Creating the space in which the content of the XML file will be shown-->
+	<p id="info" style="color:aqua"> </p>
+	</div>
+    <br><br>
+	<p style="text-align: center; padding-top: 50px; color:aqua; font-size: 18px; float: center;">
     <?php	
 	if(isset($_COOKIE[$cookie_name]))  { 
 	echo "The last page you visited was " . $_COOKIE[$cookie_name];
 	}
 	?>
     </p>
-    
+	
+	
 	<!--Including the common footer-->
-    <footer>
-    <?php
+    <footer align = center>
+	
+	
+   <?php
     include "footer.php"
     ?>
-    </footer>
+    
+	</footer>
     <hr>
 	
 </body>
