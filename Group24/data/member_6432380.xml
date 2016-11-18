@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+	<firstname>Benjamin</firstname>
+	<middlename>James</middlename>
+	<lastname>Spooner</lastname>
+	<dob>08/07/1997</dob>
+	<urn>6432380</urn>
+	<username>bs00430</username>
+	<email>bs00430@surrey.ac.uk</email>
+	<placeofbirth>Lambeth, Crystal Palace</placeofbirth>
+	<height>5"11 (182cm)</height>
+	<nationality>British</nationality>
+</person>
