@@ -162,7 +162,7 @@
 					style="width: 150px; height: relative; display: block;"
 					alt="Error in displaying Filip's photo"></a></td>
 				
-				<td><a href="#">
+				<td><a href="member_6432380.php">
 					<img src="images/benHomePic.jpg" 
 					style="width: 150px; height: relative; display: block;"
 					alt="Error in displaying Ben's photo"></a></td>
